@@ -30,11 +30,11 @@ step bonus menjalankan docker compose up -d, ps, lalu down.
  
 ## Bukti
 1. Run hijau di tab Actions
-![Run hijau](bukti/1-run-hijau.png)
+![Run hijau](foto-bukti/1-run-hijau.png)
 2. Pull Request dengan check gagal (merah)
-![PR merah](bukti/2-pr-merah.png)
+![PR merah](foto-bukti/2-pr-merah.png)
 3. Badge status di README
-![Badge](bukti/3-badge.png)
+![Badge](foto-bukti/3-badge.png)
  
 Tautan Pull Request (sudah hijau dan di-merge):
 https://github.com/pubgcod8-design/compose-ci-minggu11/pull/1
