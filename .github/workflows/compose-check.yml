@@ -12,3 +12,9 @@ jobs:
         run: cp .env.example .env
       - name: Validasi file compose
         run: docker compose config -q
+      - name: Jalankan stack
+        run: docker compose up -d
+      - name: Cek status container
+        run: docker compose ps
+      - name: Matikan stack
+        run: docker compose down
