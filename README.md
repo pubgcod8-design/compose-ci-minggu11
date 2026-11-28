@@ -40,12 +40,12 @@ Tautan Pull Request (sudah hijau dan di-merge):
 https://github.com/pubgcod8-design/compose-ci-minggu11/pull/1
  
 ## Kendala dan cara mengatasinya
-Pada Pull Request uji-gagal, log menampilkan "yaml: line 19:
+Pada Pull Request uji-gagal, log menampilkan "yaml: line 4:
 mapping values are not allowed in this context" karena indentasi
 image: pada service wordpress saya kurangi satu spasi. Pesan
-menyebut baris 19, padahal yang saya ubah baris 18. Setelah
-indentasi dikembalikan menjadi 4 spasi dan diuji dengan docker
-compose config -q, check berubah hijau.
+menyebut baris 4. Setelah indentasi dikembalikan 
+menjadi 4 spasi dan diuji dengan docker compose config -q, 
+check berubah hijau.
  
 ## Refleksi singkat
 CI membuat kesalahan pada file Compose ketahuan beberapa menit
